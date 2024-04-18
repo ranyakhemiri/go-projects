@@ -16,6 +16,7 @@ import (
 // log package is used to log errors and messages.
 // math/rand package is used to generate random numbers (ids for movies)
 // strconv package is used to convert strings to other types.
+// gorilla/mux is used to create an HTTP router.
 
 type Movie struct {
 	ID       string    `json:"id"`
